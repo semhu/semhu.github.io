@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="Description" content="Art Portfolio">
+<meta name="Keywords" content="art, animate, flash, Semantha, Hu">
+<title>
+Sem Hu - Art
+</title>
+
+<style>
+body {
+  background-image: url(file:///D:/Resources/watercolors/seamless_pattern/stardust.png);
+  background-repeat: repeat-x;
+	background-color: #333333;
+	text-align: center;f
+	line-height:11pt; font-size: 9pt;
+	overflow-x:hidden;
+	font-family:Century Gothic;
+}
+
+
+table {
+	background-color: transparent;
+}
+.table a img {
+	display: none;
+}
+body, font, div {
+	color: #898989;
+	font-size: 11pt;
+	line-height: 20px;
+	font-family: Century Gothic;
+}
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;}
+	
+	
+.sf {
+	display: none;
+}
+
+
+.backdrop {
+	background-color: #333333;
+width:auto; padding:15px;
+height:auto; border:0px solid blue;
+display:inline-block; vertical-align:middle;
+  background-image: url(file:///D:/corner.png), url(file:///D:/corner2.png);
+background-repeat:no-repeat, no-repeat;
+  background-position: left top, right bottom; 
+
+
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background: none;
+display:inline-block;
+  margin-left: auto; overflow:hidden;
+  margin-right: auto; padding:0px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.box:hover {
+
+  cursor: pointer;  width: 780px; height: auto; 
+    opacity: 1;  
+ 
+}
+
+.boxlong {
+  width: 520px;
+  height: 250px;
+  background: none;
+display:inline-block;
+  margin-left: auto; overflow:hidden;
+  margin-right: auto; padding:0px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.boxlong:hover {
+
+  cursor: pointer;  width: 980px; height: auto; 
+    opacity: 1;  
+ 
+}
+.graphicboxshort {
+  width: 250px;
+  height: 250px;
+  background: none; 
+display:inline-block; 
+  margin-left: auto; overflow:hidden;
+  margin-right: auto; padding:0px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.graphicboxshort:hover {
+ border: 0px solid blue; 
+  cursor: pointer;  width: 450px; height: auto; 
+    opacity: 1;  
+ 
+}
+
+.graphicboxlong {
+  width: 250px;
+  height: 250px;
+  background: none;
+display:inline-block;
+  margin-left: auto; overflow:hidden;
+  margin-right: auto; padding:0px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.graphicboxlong:hover {
+
+  cursor: pointer;  width: 700px; height: auto; 
+    opacity: 1;  
+ 
+}
+.graphicboxhorizontal {
+  width: 520px;
+  height: 250px;
+  background: none;
+display:inline-block;
+  margin-left: auto; overflow:hidden;
+  margin-right: auto; padding:0px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.graphicboxhorizontal:hover {
+
+  cursor: pointer;  width: 700px; height: auto; 
+    opacity: 1;  
+ 
+}
+.video  img{
+padding:10px;}
+
+
+
+
+.info {
+  background-color: #efefef; position:relative;
+ width: 101%; padding:10px; text-align: center;
+}
+.textbox {
+ width: 350px; height:200px;
+ border: red solid 0px;
+ display:inline-block; 
+ padding: 10px; 
+ display:table-cell; text-align:left;
+ vertical-align:middle; }
+
+ .header{
+display:block;
+width:auto;height:auto; margin-top:100px;
+margin-left:3%;position: absolute;
+
+ }
+
+ .contentart {
+
+width:80%;  text-align:center;
+; border:1px solid blue;
+display:inline-block; 
+
+}
+.name {
+	font-size: 16pt; width:auto; display:inline-block;
+	margin: 0px;	letter-spacing: 5px;  border: #333 solid 1px; padding:10px;
+	font-family: "Tw Cen MT Condensed",CenturyGothic,AppleGothic,calibri,sans-serif;
+	font-style: normal;
+	font-weight: bold;	color: #333333;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 16pt; width:auto; display:inline-block;
+	margin: 0px;	letter-spacing: 5px;  border: #fff solid 1px; padding:10px;
+	font-family: "Tw Cen MT Condensed",CenturyGothic,AppleGothic,calibri,sans-serif;
+	font-style: normal;
+	font-weight: bold;	color: #fff;
+	text-transform: uppercase;
+}
+
+.contact {
+  background-color: none; position: fixed; top:10px; 
+ width: 101%; padding:10px; text-align: left;
+}
+.email {
+  background-color: none; position: fixed; bottom:10px; right:20px;
+ width: 101%; padding:10px; text-align: right;
+}
+.enhance{
+ height: 400px; 
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+.enhance:hover{
+ height: 600px; 
+}
+.thumbnaillong {
+  display: block;  border:0px solid red;
+  width: 550px; margin-top:-110px;
+ opacity:1; margin-left:-20px;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+
+.thumbnaillong:hover {
+  display: block;
+  width: 980px;margin-top:00px;
+ opacity:0;margin-left:0px;
+}
+
+
+.thumbnail {
+  display: block;
+  width: 250px;
+  height: 250px; opacity:1;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+
+.thumbnail:hover {
+  display: block;
+  width: 650px;
+  height: 250px;opacity:0;
+}
+
+.graphiclong {
+  display: block;
+  width: 250px;
+  height: auto; opacity:1;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+.graphicshort {
+  display: block; 
+  width: 250px;
+  height: auto; opacity:1;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+}
+
+
+.graphicshort:hover {
+  display: block; margin-top:0px!important; margin-left:0px!important;
+  width: 450px!important; height: auto!important;
+}
+
+.graphiclong:hover {
+  display: block; margin-top:0px!important; margin-left:0px!important;
+  width: 700px!important; height: auto!important;
+}
+.video {
+  display: block;
+  width: 250px;position: relative;
+  top:0px;
+  height: 250px; opacity:0; margin-top:-250px;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+border:0px solid purple;
+}
+
+.video:hover {
+  display: block;  z-index: 2;
+  width: 650px; background-color:#000;padding:60px;
+  height: 350px;opacity:1;
+}
+
+
+.videolong {
+  display: block;
+  width: 560px;position: relative;
+  top:0px;
+  height: 250px; opacity:0; margin-top:-320px;margin-left:-20px;
+    -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  transition: .5s ease-out;
+
+border:1px solid purple;
+}
+
+.videolong:hover {
+  display: block;  z-index: 2;
+  width: 900px; background-color:#000;padding:60px;
+  height: 510px;opacity:1;
+}
+
+
+
+
+.image {
+  display: block;
+  width: 650px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+width:320px;height:340px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+left:50%;  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text:hover{
+  opacity: 1; width:720px;height:540px;
+}
+.exterior {
+width:auto;height:auto;display:inline-block; padding:20px;position:relative; 
+  position: relative;border-left: 1px #898989 solid; 
+border-right: 1px #898989 solid; 
+}
+</style>
+
+
+
+<body>
+
+
+<br><Br>
+
+
+<div class="enhance">
+<video controls="false" height="100%">
+  <source src="https://www.dropbox.com/s/qvn0z0lt5gah4ji/Final_HERO.mp4?raw=1" type="video/mp4">
+</video>
+</div><br><Br>
+<div class="info"><center>
+
+
+<div class="textbox"><center>
+<div class="name">
+SEMANTHA HU</div>
+
+<Br><Br>
+
+Graphic Artist | Vector Animator
+
+</center>
+</div>
+</div>
+
+
+<div class="email">
+724-496-4712<Br>
+semantha.hu@gmail.com
+</div>
+
+<br><Br><Br><br>
+
+<div class="header">
+<h2>Animation</h2>
+
+</div>
+<br><Br><Br><br>
+
+<center>
+<div class="exterior">
+<div class="backdrop">
+<div class="box">
+
+  <img src="https://i.imgur.com/x4A4bHb.gif" class="thumbnail">
+ <div class="video">
+<video width="100%"  controls="false">
+  <source src="https://www.dropbox.com/s/i0jzzi6vtgk41s5/PhDog_v005_FULL.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div>
+  
+</div>
+</div>
+
+<div class="backdrop">
+<div class="box">
+
+  <img src="https://i.imgur.com/9e4DnnT.gif" class="thumbnail">
+ <div class="video">
+<video width="100%"  controls="false">
+  <source src="https://www.dropbox.com/s/qvn0z0lt5gah4ji/Final_HERO.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div>
+  </div>
+</div>
+
+<Br><Br>
+
+
+<div class="backdrop">
+<div class="box">
+
+  <img src="https://i.imgur.com/XwHHgER.gif" class="thumbnail">
+ <div class="video">
+<video width="100%"  controls="false">
+  <source src="https://www.dropbox.com/s/4it2fyke8pa9e27/Climbup.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div></div>
+  </div>
+<div class="backdrop">
+<div class="box">
+
+  <img src="https://i.imgur.com/8XG3Sqj.gif" class="thumbnail">
+ <div class="video">
+<video width="100%"  controls="false">
+  <source src="https://www.dropbox.com/s/5fkb6gfn0i1sm98/Sven_LipSync.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div>
+  </div></div>
+    <Br>
+	
+	<div class="backdrop">
+<div class="box">
+
+  <img src="https://i.imgur.com/lciiad6.gif" class="thumbnail">
+ <div class="video">
+<video width="100%"  controls="false">
+  <source src="https://www.dropbox.com/s/85gm8v0avh4309u/Muzz_Swim.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div>
+  </div></div>
+</div>
+
+  
+</div></div>
+
+</div>
+<Br><Br><br><br><Br><Br><br><br>
+<div class="header">
+<h2>Graphic</h2>
+
+</div>
+<br><Br><Br><br>
+<div class="exterior">
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/UBzhxTk.png" class="graphicshort" style="width:240px; margin-top:50px; margin-left:-0;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/xXwLQW0.png" class="graphicshort" style="width:260px; margin-top:-0px; margin-left:0px;">
+  </div>
+</div>
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxhorizontal">
+
+  <img src="https://i.imgur.com/Vl24SRf.png" class="graphiclong" style="width:600px; margin-top:-0px; margin-left:-30px;">
+  </div>
+</div>
+<br><Br><br>
+
+
+
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/R0Bd4rD.png" class="graphicshort" style="width:260px; margin-top:10px; margin-left:-0;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/aaX4QOd.png" class="graphicshort" style="width:260px; margin-top:-0px; margin-left:0px;">
+  </div>
+</div><br><br><br>
+
+
+
+
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/3aIrGxy.png" class="graphicshort" style="width:250px; margin-top:00px; margin-left:-0;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/NmAtXiU.png" class="graphicshort" style="width:250px; margin-top:30px; margin-left:0px;">
+  </div>
+</div><br><br><br>
+
+<div class="backdrop">
+<div class="graphicboxhorizontal">
+
+  <img src="https://i.imgur.com/sKg4xxX.png" class="graphiclong" style="width:500px; margin-top:-10px; margin-left:0px;">
+  </div>
+</div>
+
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/K3hdCj2.png" class="graphicshort" style="width:260px; margin-top:00px; margin-left:-0;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/ZS9JDrU.png" class="graphicshort" style="width:230px; margin-top:00px; margin-left:0px;">
+  </div>
+</div><br><br><br>
+<div class="backdrop">
+<div class="graphicboxhorizontal">
+
+  <img src="https://i.imgur.com/GqwdKZp.png" class="graphiclong" style="width:350px; margin-top:-00px; margin-left:0px;">
+  </div>
+</div>
+<br><Br><br>
+</div>
+
+
+
+
+<Br><Br><br><br><Br><Br><br><br>
+<div class="header">
+<h2>ILLUSTRATION</h2>
+</div>
+<Br><Br><Br><Br>
+<div class="exterior">
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="http://i.imgur.com/bWuleEN.png" class="graphicshort" style="width:300px; margin-top:-220px; margin-left:-20px;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxlong">
+
+  <img src="http://i.imgur.com/jG6FDOU.png" class="graphiclong" style="width:900px; margin-top:-250px; margin-left:-320px;">
+  </div>
+</div>
+
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxhorizontal">
+
+  <img src="http://i.imgur.com/iQCr0qL.png" class="graphiclong" style="width:600px; margin-top:-120px; margin-left:-30px;">
+  </div>
+</div>
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/39XuWUp.png" class="graphicshort" style="width:260px; margin-top:10px; margin-left:-0;">
+  
+
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/UPfkJrz.png" class="graphicshort" style="width:260px; margin-top:-0px; margin-left:0px;">
+  </div>
+</div>
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxhorizontal">
+
+  <img src="https://i.imgur.com/RHRYtWT.png" class="graphiclong" style="width:650px; margin-top:-30px; margin-left:-10px;">
+  </div>
+</div>
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxshort">
+  <img src="https://i.imgur.com/ovRJq64.png" class="graphicshort" style="width:350px; margin-top:-70px; margin-left:-70px;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/kQxxUCm.gif" class="graphicshort" style="width:380px; margin-top:00px; margin-left:-50px;">
+  </div>
+</div><br>
+<div class="backdrop">
+<div class="boxlong" >
+
+  <img src="http://i.imgur.com/wDoQNUJ.gif" class="thumbnaillong">
+ <div class="videolong">
+<video width="100%" autoplay controls="false">
+  <source src="https://www.dropbox.com/s/xzjrugq2y40rucc/artie_bc_02-transparent-skeleton.mp4?raw=1" type="video/mp4">
+</video>
+	
+  </div>
+  </div></div>
+
+<br><Br><br>
+
+
+<div class="backdrop">
+<div class="graphicboxshort">
+ 
+  <img src="https://i.imgur.com/KBmWodc.png" class="graphicshort" style="width:260px; margin-top:-5px; margin-left:-0;">
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+ <img src="https://i.imgur.com/ZGTQgPo.png" class="graphicshort" style="width:550px; margin-top:-110px; margin-left:-100px;">
+  
+  </div>
+</div>
+<br><Br><br>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+
+  <img src="https://i.imgur.com/dnsSQMu.png" class="graphicshort" style="width:245px; margin-top:10px; margin-left:-0px;">
+
+  
+  </div>
+</div>
+<div class="backdrop">
+<div class="graphicboxshort">
+
+
+  <img src="http://i.imgur.com/hD7rz36.png" class="graphicshort" style="width:245px; margin-top:-5px; margin-left:-0px;">
+  </div>
+</div>
+<br><Br><br>
+
+<div class="backdrop">
+<div class="graphicboxshort">
+
+  <img src="https://i.imgur.com/QH2dT2m.png" class="graphicshort" style="width:260px; margin-top:10px; margin-left:-10px;">
+  </div>
+</div>
+
+
+
+
+
+</div>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+
+
+
+</body>
+<BR><BR><BR>
